@@ -1,0 +1,149 @@
+.search {
+    height: 100vh;
+    background-color: #dae0e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search__filters{
+    margin-top: 15px;
+    width: 90%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.search__sortbytext {
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+.search__sortby{
+    margin-left: 10px;
+}
+
+.search__communities{
+    margin-top: 10px;
+    width: 90%;
+    height: 100vh;
+    background-color: white;
+}
+
+.search__noresults{
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.search__community{
+    width: 100%;
+    height: 95px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search__vote{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search__vote > span {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.search__arrow {
+    outline:none;
+    border: none;
+    background-color: transparent;
+}
+
+.search__comPhoto {
+    margin-left: 10px;
+}
+
+.search__comPhoto > img{
+    max-width: 35px;
+    max-height: auto;
+}
+
+.search__communityinfo{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 150px
+}
+
+.search__communityname{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.search__communitymembers{
+    font-size: 12px;
+    color: gray;
+}
+
+.search__communitydescription{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    line-height: 14px;
+}
+
+.search__communitydescription > p {
+    font-size: 14px;
+    color: gray;
+}
+
+.search__joincommunity{
+}
+
+.search__joincommunity > button {
+    width:85px;
+    height: 30px;
+    border: none;
+    background-color: #0079d3;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.search__paginate {
+    margin-top: 10px;
+    display:flex;
+    justify-content: center;
+}
+
+.page{
+    padding: 7px;
+    font-weight: bold;
+}
+
+.prev__page{
+    padding: 7px;
+    font-weight: bold;
+}
+
+.next__page{
+    padding: 7px;
+    font-weight: bold;
+}
+
+.active {
+    color: #ff4500;
+}
+
+.disabled{
+    visibility: hidden;
+}
+
+.search__pagesizetext {
+    margin-left: 30px;
+    font-size: 13px;
+}
